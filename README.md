@@ -14,11 +14,13 @@
 * **NASA Radiation Effects and Analysis Group DB**: <https://nepp.nasa.gov/radhome/RadPubDbase/RadPubDbase.html>
 * **Future Lunar Surface Network Study, Nokia 2024**: <https://ntrs.nasa.gov/api/citations/20240003815/downloads/NASA%203GPP%20Study%20Final%20Project%20Report%20Consol%20UDR.pdf>
 
-<p><em>"For example, radiation tolerant versions of 3GPP SoC/SiPs do not exist to date, and would
+<ul>
+<li><p><em>"For example, radiation tolerant versions of 3GPP SoC/SiPs do not exist to date, and would
 require deep IC re-design, using both more resilient processes (like SOI) and/or ah-hoc
 mitigation techniques (like Error Detection and Correction, memory scrubbing, triple
 redundancy)."</em></p>
-
+</li>
+</ul>
 ### Safety
 
 * **Runtime Verification with Ogma, NASA 2023**: <https://ntrs.nasa.gov/api/citations/20230010722/downloads/2023-01-19-Perez-UCSC-RV-with-Ogma-v1.pdf>
