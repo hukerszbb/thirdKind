@@ -23,8 +23,29 @@
 
 * **Runtime Verification with Ogma, NASA 2023**: <https://ntrs.nasa.gov/api/citations/20230010722/downloads/2023-01-19-Perez-UCSC-RV-with-Ogma-v1.pdf>
 * **Lessons Learned and Gaps in Standards Related to Controlling Catastrophic Hazards for Human Spacecraft Propulsion Systems, NASA 2025**: <https://ntrs.nasa.gov/api/citations/20250004573/downloads/Lesson%20Learned%20and%20Prop%20Stand%20TIM%206-13-25%20R3.pdf>
+
+  > * "flight hardware shall be monitored and protected with 1 fault tolerance, against over-pressurization, over-voltage, over current, excessive
+  > vibration or shock"
+  > * "Detect, isolate and recover from failure modes and hazards identified during system design, development, or mission
+  > operations within the time limit necessary to mitigate the catastrophic failure"
 * **Historical Aerospace Software Errors Categorized to Influence Fault Tolerance, NASA 2024**: (future directions section) <https://ntrs.nasa.gov/api/citations/20230012909/downloads/Historical%20Aerospace%20Software%20Errors.pdf>
-* **Rapid Spacecraft Payload Development: In-Orbit Demonstration of Flight Software Reuse, Scalability, and Dependability, Unibap (competitor) 2024**: <https://ntrs.nasa.gov/api/citations/20230000794/downloads/DSA_SpaceCloud_Payload_Experiment_Paper-2.pdf>
+
+  > "It is acknowledged that software
+  > development tools and practices such as continuous
+  > integration have enabled increased productivity and may help
+  > ensure higher quality software, however, the author believes
+  > that the rate of software/automation growth [11] has offset
+  > these practice improvements. As a response to increased
+  > volume, software development efforts have had to become
+  > more data driven and more configurable -- it simply cannot
+  > be rewritten for every configuration or for every flight. It is
+  > speculated that errors introduced through configuration data
+  > or version management will become more significant with
+  > modern software designs, though the overall occurrence of
+  > software error incidents will likely continue."
+* **Rapid Spacecraft Payload Development: In-Orbit Demonstration of Flight Software Reuse, Scalability, and Dependability, Unibap (competitor) 2024**: <https://ntrs.nasa.gov/api/citations/20230000794/downloads/DSA_SpaceCloud_Payload_Experiment_Paper-2.pdf>, presentation: <https://www.youtube.com/watch?v=pjgIFhgMtPU>
+
+  > "Docker containers for fault tolerance"
 
 ### Misc
 
