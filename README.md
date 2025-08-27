@@ -62,6 +62,11 @@ Multicore Processing Performance: The Safe and Precise Landing, NASA 2023**: <ht
 * **NOR Flash Memory Scrubbing Application for Boot File
 Preservation of NASA’s Descent and Landing Computer (DLC), NASA 2021**: <https://ntrs.nasa.gov/api/citations/20210016267/downloads/NOR_Flash_Memory_Scrubbing_Application_for_DLC.pdf>
 
+* **Verification and Validation of
+the OS for NASA, 2024**: <https://ntrs.nasa.gov/api/citations/20240015845/downloads/2024%20ELISA_VV_Certpackage.pdf>
+
+  > Short guideline for safety-critical software
+
 ### Operating Systems
 
 * **CubedOS: A Verified CubeSat Operating System, Vermont Technical College 2017**: <http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-farnsworth-klink-AUJ-2017.pdf>, repo: <https://github.com/cubesatlab/cubedos>
@@ -156,6 +161,40 @@ Preservation of NASA’s Descent and Landing Computer (DLC), NASA 2021**: <https
   > in the flight computer. With the data system, flight computer and RF communications
   > reestablished the spacecraft can resume interaction with mission control as necessary for the
   > mission.
+
+* **Highly-miniaturized spacecraft “PlanarSat”: Evaluating prospects and challenges through
+a survey of femto & atto satellite missions, TUDelft 2025**: <https://pure.tudelft.nl/ws/portalfiles/portal/249293307/1-s2.0-S0094576525003005-main.pdf>
+
+  > Monarch,
+  > with a mass of 5 grams and dimensions of 5 × 5 cm2, is a printed
+  > circuit board on a kapton substrate. They are designed to be deployed
+  > in large batches form a mothership and create a swarm to collect data
+  > from multiple locations simultaneously. Monarch’s first launch
+  > opportunity is planned as a part of a solar sail, Alpha Sail developed
+  > by Cornell University. Four Monarchs would be placed, two on each
+  > face of the sail. This mission was designed, to test the effectiveness of
+  > a highly reflective material intended for light-sail propulsion
+
+  > POQUITO attosatellite network: demonstrate
+  > an LED-based communication in between attosatellites to transmit their
+  > data. The network’s primary element can transmit data via its RF
+  > transmitter
+
+  > Although studies highlight
+  > the potential for swarm applications of femto/attosatellites, they do
+  > not specify the required number of satellites, as these missions are not
+  > yet planned and the studies primarily focus on the satellite technology
+  > itself.
+
+  > lack of dedicated launchers/deployers for PlanarSat => contradicting concerning mission cost, especially when the launch is included.
+
+  > Photonic propulsion, such as laser and solar sails, offers propellant-less solutions which might be ideal for PlanarSats
+
+  > Lubin’s research into directed energy propulsion explores wafer-scale spacecraft accelerated to relativistic speeds by phased laser arrays, presenting opportunities for interstellar probes and LEO missions alike
+  
+  > PlanarSats stand out in distributed applications, providing unique cost–effective opportunities to enhance spatial and temporal resolution, making them ideal for complex, multi–point measurement tasks that larger satellites cannot perform as efficiently.
+
+  > Asteroid mining
 
 ## ESA Handbooks
 
