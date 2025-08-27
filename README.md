@@ -59,9 +59,12 @@ Multicore Processing Performance: The Safe and Precise Landing, NASA 2023**: <ht
   > that isolates the application processors from interrupts associated
   > with the sensor I/O to support deterministic operation.
 
+* **NOR Flash Memory Scrubbing Application for Boot File
+Preservation of NASA’s Descent and Landing Computer (DLC), NASA 2021**: <https://ntrs.nasa.gov/api/citations/20210016267/downloads/NOR_Flash_Memory_Scrubbing_Application_for_DLC.pdf>
+
 ### Operating Systems
 
-* CubedOS: A Verified CubeSat Operating System, Vermont Technical College 2017: <http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-farnsworth-klink-AUJ-2017.pdf>, repo: <https://github.com/cubesatlab/cubedos>
+* **CubedOS: A Verified CubeSat Operating System, Vermont Technical College 2017**: <http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-farnsworth-klink-AUJ-2017.pdf>, repo: <https://github.com/cubesatlab/cubedos>
 
   > CubedOS is
   > written entirely in SPARK and proved free of runtime errors
@@ -71,7 +74,26 @@ Multicore Processing Performance: The Safe and Precise Landing, NASA 2023**: <ht
   > generates message encoding and decoding subprograms based
   > on strongly typed message descriptions. The output of the
   > tool is verified by SPARK.
->
+
+* LynxOS modifications: **Flight Software for the LOFTID Re-Entry Vehicle, NASA 2023**: <https://ntrs.nasa.gov/citations/20230002320>
+
+  > Based on posix OSAL and pc-linux PSP
+  
+  > OSAL
+  > * Threaded Signal Handler behavior ambiguity
+  > * POSIX does not define which thread receives a given signal
+  > * Created dedicated Timer Thread to do signal handling
+  > * Used msg queue for other threads to add and remove signals
+  > * Pthread Mutexes were not recursive
+  > * Added recursive functionality to OS_mutex
+  > * Dynamic Object Loader API inconsistent
+  > * Switched to using a module id for all shared object symbol lookups
+
+  > PSP
+  > * Shared Memory inconsistent
+  > * Switched to POSIX real-time shared memory
+  > * Reworked Timer Thread to reflect OSAL changes
+
 ### Misc
 
 * **Space Based Solar Power, NASA 2024**: <https://ntrs.nasa.gov/api/citations/20230018600/downloads/OTPS%20SBSP%20Report%20Final_Tagged_Approved_1_5_24.pdf>
@@ -91,7 +113,7 @@ Multicore Processing Performance: The Safe and Precise Landing, NASA 2023**: <ht
   > vation will unlock insights into universe formation questions
   > and habitable worlds"
 
-* Rapidly Deployable Satellite-Based Emergency Communications Infrastructure, Swinburne University of Technology, Melbourne 2024: <https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10685402>
+* **Rapidly Deployable Satellite-Based Emergency Communications Infrastructure, Swinburne University of Technology, Melbourne 2024**: <https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10685402>
 
   > * Our
   > comprehensive analysis reveals a gap in addressing interoperability issues caused by disparate communica-
@@ -107,6 +129,33 @@ Multicore Processing Performance: The Safe and Precise Landing, NASA 2023**: <ht
   > channel with restricted services. For instance, novel work that
   > leverages advances in SDR and satellite waveform technolo-
   > gies demonstrates the reuse of existing MEOSAR resources
+
+* **The Design of a Flexible, Interoperable Navigation Signal for Future Lunar Missions, NASA 2025**: <https://ntrs.nasa.gov/citations/20250000725>
+
+  > The LunaNet Interoperability Specification (LNIS) is a set of standards currently under development by NASA, ESA, and JAXA, which define a common, interoperable set of services and interfaces for
+  > lunar communication and navigation. The LNIS includes specifications for the GNSS-like Augmented Forward Signal (AFS).
+
+* **Cold Electronics for Lunar Missions, NASA 2025**: <https://ntrs.nasa.gov/api/citations/20250008583/downloads/20250008583.pdf>
+
+  > no cold capable avionics architecture meeting requirements like those of lunar
+  > surface missions has yet been fully implemented. Studies and technology readiness level (TRL)
+  > 32 prototypes show the feasibility of such an architecture, but none has yet been fully built,
+  > qualified, or fielded.
+
+  > Microcontrollers and field programmable gate arrays (FPGAs) are important to run the system or
+  > spacecraft, and COTS/MIL testing reveals that many COTS/MIL FPGAs start to behave poorly
+  > at temperatures as high as -123 °C (150 K). There are some candidates such as the Artix7 FPGA,
+  > which seem to have good performance down to -269 °C (4 K) except for increased jitter
+
+  > SiGe is an alternative that has reliable performance at extremely low temperatures. SiGe exploits
+  > HBTs which are not prone to hot carrier damage. Fairly complex IC can be rendered in SiGe.
+
+  > Once avionics are warmed up to operating temperatures, the MBC then begins methodically
+  > activating the power distribution system to power up the avionics. The highest priorities are mission dependent but are likely to be the radio transmitter, flight computer, and data network.
+  > With the flight computer active, the power management can be taken over by a software module
+  > in the flight computer. With the data system, flight computer and RF communications
+  > reestablished the spacecraft can resume interaction with mission control as necessary for the
+  > mission.
 
 ## ESA Handbooks
 
