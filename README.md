@@ -23,11 +23,12 @@
 
 * **Runtime Verification with Ogma, NASA 2023**: <https://ntrs.nasa.gov/api/citations/20230010722/downloads/2023-01-19-Perez-UCSC-RV-with-Ogma-v1.pdf>
 * **Lessons Learned and Gaps in Standards Related to Controlling Catastrophic Hazards for Human Spacecraft Propulsion Systems, NASA 2025**: <https://ntrs.nasa.gov/api/citations/20250004573/downloads/Lesson%20Learned%20and%20Prop%20Stand%20TIM%206-13-25%20R3.pdf>
-
+  > Requirement that address a gap in an Existing Standard:
   > * "flight hardware shall be monitored and protected with 1 fault tolerance, against over-pressurization, over-voltage, over current, excessive
   > vibration or shock"
   > * "Detect, isolate and recover from failure modes and hazards identified during system design, development, or mission
   > operations within the time limit necessary to mitigate the catastrophic failure"
+  > * "FDIR software shall screen for instrumentation failures that are OSL/OSH and also correct for bias/offsets."
 * **Historical Aerospace Software Errors Categorized to Influence Fault Tolerance, NASA 2024**: (future directions section) <https://ntrs.nasa.gov/api/citations/20230012909/downloads/Historical%20Aerospace%20Software%20Errors.pdf>
 
   > "It is acknowledged that software
