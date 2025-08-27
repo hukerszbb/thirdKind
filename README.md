@@ -15,9 +15,9 @@
 * **Future Lunar Surface Network Study, Nokia 2024**: <https://ntrs.nasa.gov/api/citations/20240003815/downloads/NASA%203GPP%20Study%20Final%20Project%20Report%20Consol%20UDR.pdf>
 
 > <p><em>"For example, radiation tolerant versions of 3GPP SoC/SiPs do not exist to date, and would
-require deep IC re-design, using both more resilient processes (like SOI) and/or ah-hoc
-mitigation techniques (like Error Detection and Correction, memory scrubbing, triple
-redundancy)."</em></p>
+> require deep IC re-design, using both more resilient processes (like SOI) and/or ah-hoc
+> mitigation techniques (like Error Detection and Correction, memory scrubbing, triple
+> redundancy)."</em></p>
 
 ### Safety
 
@@ -33,17 +33,17 @@ redundancy)."</em></p>
 * **Standards and Schematics for Intelligent Extensible Mission Architectures in Space, NASA 2025**: <https://ntrs.nasa.gov/api/citations/20250005873/downloads/DASS-Camera-Ready.pdf>
 
 > <p><em>"Additionally, incrementing infrastructure in space
-to build large space weather networks will provide alerts to
-astronauts exploring the surface of the Moon and Mars.
-Similarly, incrementing assets observing deep-space planetary
-environments on an “as needed” basis will enable multi-shot
-observation of possible life on other planetary bodies like
-Enceladus and Europa. This is particularly important in
-communication limited environments of planetary exploration.
-Lastly, being able to capture celestial events by connecting
-large telescopes and observatories through responsive obser-
-vation will unlock insights into universe formation questions
-and habitable worlds"</em> </p>
+> to build large space weather networks will provide alerts to
+> astronauts exploring the surface of the Moon and Mars.
+> Similarly, incrementing assets observing deep-space planetary
+> environments on an “as needed” basis will enable multi-shot
+> observation of possible life on other planetary bodies like
+> Enceladus and Europa. This is particularly important in
+> communication limited environments of planetary exploration.
+> Lastly, being able to capture celestial events by connecting
+> large telescopes and observatories through responsive obser-
+> vation will unlock insights into universe formation questions
+> and habitable worlds"</em> </p>
 
 ## ESA Handbooks
 
