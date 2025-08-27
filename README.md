@@ -48,6 +48,30 @@
 
   > "Docker containers for fault tolerance"
 
+* **A System to Provide Deterministic Flight Software Operation and Maximize
+Multicore Processing Performance: The Safe and Precise Landing, NASA 2023**: <https://ntrs.nasa.gov/api/citations/20230018685/downloads/SCC2023_8266_Rutishauser_Presentation.pdf>
+
+  > Enable landing at locations that pose significant risk to
+  > vehicle touchdown or payload deployment (including
+  > near pre-positioned surface assets)
+
+  > Approach was to use embedded Linux OS and develop a datapath
+  > that isolates the application processors from interrupts associated
+  > with the sensor I/O to support deterministic operation.
+
+### Operating Systems
+
+* CubedOS: A Verified CubeSat Operating System, Vermont Technical College 2017: <http://lemuria.cis.vermontstate.edu/CubeSat/PUBLIC/brandon-chapin-farnsworth-klink-AUJ-2017.pdf>, repo: <https://github.com/cubesatlab/cubedos>
+
+  > CubedOS is
+  > written entirely in SPARK and proved free of runtime errors
+  > in the sense meant by SPARK.
+  > CubedOS provides a great deal of concurrency and runtime
+  > flexibility, but sacrifices some static type safety to achieve this. We mitigate the danger using a tool, XDR2OS3, that
+  > generates message encoding and decoding subprograms based
+  > on strongly typed message descriptions. The output of the
+  > tool is verified by SPARK.
+>
 ### Misc
 
 * **Space Based Solar Power, NASA 2024**: <https://ntrs.nasa.gov/api/citations/20230018600/downloads/OTPS%20SBSP%20Report%20Final_Tagged_Approved_1_5_24.pdf>
@@ -66,6 +90,23 @@
   > large telescopes and observatories through responsive obser-
   > vation will unlock insights into universe formation questions
   > and habitable worlds"
+
+* Rapidly Deployable Satellite-Based Emergency Communications Infrastructure, Swinburne University of Technology, Melbourne 2024: <https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10685402>
+
+  > * Our
+  > comprehensive analysis reveals a gap in addressing interoperability issues caused by disparate communica-
+  > tion standards, processing power and energy requirements. Further analysis reveals promising open-source
+  > initiatives that offer potential solutions, such as low-data rate modulation schemes, low-bitrate voice
+  > codecs, and low-power encryption techniques.
+  > * Future work
+  > should leverage advancements in low-bitrate technologies to enhance emergency systems, ensuring secure
+  > and resilient two-way voice, messaging, and distress signalling capabilities for critical communications.
+  > * Recent research identifies the potential of the Medium
+  > Earth Orbit Search and Rescue (MEOSAR), which provides
+  > a highly available 406MHz emergency communication
+  > channel with restricted services. For instance, novel work that
+  > leverages advances in SDR and satellite waveform technolo-
+  > gies demonstrates the reuse of existing MEOSAR resources
 
 ## ESA Handbooks
 
